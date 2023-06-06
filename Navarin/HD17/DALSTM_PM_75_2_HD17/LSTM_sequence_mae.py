@@ -89,6 +89,10 @@ else:
     model.add(BatchNormalization())
 
 
+from keras.utils.vis_utils import plot_model
+plot_model(model, show_shapes=True, to_file='model.png')
+
+
 #add output layer (regression)
 model.add(Dense(1))
 

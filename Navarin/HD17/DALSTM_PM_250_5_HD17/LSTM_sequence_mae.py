@@ -124,5 +124,6 @@ scores = model.evaluate(X_test, y_test, verbose=0)
 print scores
 print("Root Mean Squared Error: %.4f d MAE: %.4f d MAPE: %.4f%%" % (sqrt(scores[1]/((24.0*3600)**2)), scores[2]/(24.0*3600), scores[3]))
 
-#2 X 150
-#784067891517.23853, 700531.33216735872, 772603381419.48474
+#5 X 250
+#Root Mean Squared Error: 11.4965 d MAE: 9.1396 d MAPE: 2122366155973.8267%
+
